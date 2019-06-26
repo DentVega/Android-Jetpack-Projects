@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shape="oval"
+            android:visible="true">
+            <solid android:color="@color/colorPrimary" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_arrow_up_24dp" />
+</layer-list>

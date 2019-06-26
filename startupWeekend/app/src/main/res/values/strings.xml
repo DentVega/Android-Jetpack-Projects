@@ -7,10 +7,29 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
+    <string name="loading">Cargando...</string>
+    <string name="title_activity_location">Map</string>
+    <string name="title_event">Consciencia Verde</string>
+    <string name="date_event">Cochabamba. 21 - 23 Junio, 2019</string>
+    <string name="get_entry">ADQUIRIR ENTRADA</string>
+
+    <!--Menu-->
+    <string name="menu_home">Inicio</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_events">Eventos</string>
+    <string name="menu_location">Ubicacion</string>
+    <string name="menu_partners">Socios</string>
+    <string name="menu_info">Informacion</string>
+    
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="about_title">¿Qué es el Startup Weekend Sustainable Revolution?</string>
+    <string name="detail_about">Es una iniciativa global dirigida por voluntarios para poner el desarrollo sostenible a
+        la vanguardia del escenario mundial. Debido a que la sostenibilidad ambiental es uno de los mayores desafíos a
+        los que se enfrenta la humanidad, es nuestro deber ayudar a los emprendedores a encontrar las mejores soluciones
+        para superarla.
+    </string>
 </resources>
