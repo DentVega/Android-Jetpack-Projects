@@ -1,6 +1,7 @@
 package com.brianvega.startupweekend.models
 
 import com.google.firebase.Timestamp
+import com.google.firebase.firestore.GeoPoint
 
 class Event {
 
@@ -12,5 +13,5 @@ class Event {
     lateinit var descriptionEn: String
     lateinit var descriptionSp: String
     lateinit var date: Timestamp
-
+    lateinit var location: GeoPoint
 }
