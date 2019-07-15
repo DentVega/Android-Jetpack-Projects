@@ -32,4 +32,9 @@
         los que se enfrenta la humanidad, es nuestro deber ayudar a los emprendedores a encontrar las mejores soluciones
         para superarla.
     </string>
+    <string name="read_more">Leer Mas</string>
+    <string name="title_field">Campo titulo</string>
+    <string name="address_field">Campo direccion</string>
+    <string name="date_field">Campo fecha</string>
+    <string name="description_field">Campo descripcion</string>
 </resources>

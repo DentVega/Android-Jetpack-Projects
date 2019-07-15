@@ -1,9 +1,12 @@
 package com.brianvega.startupweekend.fragments
 
 import android.annotation.SuppressLint
+import android.app.Activity
 import android.app.ProgressDialog
 import android.os.Bundle
 import android.view.View
+import android.view.WindowManager
+import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -52,6 +55,18 @@ open class BaseFragment : Fragment() {
             return
 
         progressDialog!!.dismiss()
+    }
+
+    fun showProgressBar(progressBar: ProgressBar, activity: Activity) {
+        activity.window.setFlags(
+            WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE,
+            WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE)
+        progressBar.visibility = View.VISIBLE
+    }
+
+    fun hideProgressBar(progressBar: ProgressBar, activity: Activity) {
+        activity.window.clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE)
+        progressBar.visibility = View.GONE
     }
 
     @SuppressLint("InflateParams")
