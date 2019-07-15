@@ -38,4 +38,5 @@
     <string name="date_field">Campo fecha</string>
     <string name="description_field">Campo descripcion</string>
     <string name="accpet_permissions">Por favor acepte los permisos para continuar</string>
+    <string name="sponsors">Sponsors</string>
 </resources>

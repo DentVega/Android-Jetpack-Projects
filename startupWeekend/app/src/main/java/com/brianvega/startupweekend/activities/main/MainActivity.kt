@@ -22,6 +22,7 @@ import com.brianvega.startupweekend.fragments.about.AboutFragment
 import com.brianvega.startupweekend.fragments.address.AddressFragment
 import com.brianvega.startupweekend.fragments.events.EventsFragment
 import com.brianvega.startupweekend.fragments.home.HomeFragment
+import com.brianvega.startupweekend.fragments.sponsors.SponsorsFragment
 
 class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -91,6 +92,9 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
                 } else {
                     showCustomToast(getString(R.string.accpet_permissions))
                 }
+            }
+            R.id.nav_sponsors -> {
+                loadFragment(SponsorsFragment.newInstance(), R.id.frame_container)
             }
             R.id.nav_share -> {
 
